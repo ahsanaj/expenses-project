@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat:500|Roboto");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+input,
+button {
+    font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.number {
+    font-family: "Roboto", sans-serif;
+}
+
+.number {
+    font-size: 1.1em;
+    color: #ed5c27;
+    letter-spacing: 0.03em;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden-remove {
+    display: inline-block;
+}
+
+.card-text {
+    padding-left: 5px;
+}
+
+.col-lg-6 {
+    margin-bottom: 15px;
+}
+
+
+/* Income card */
+
+#income-card li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    list-style: none;
+}
+
+#income-card .btn {
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+#income-card .btn-div {
+    display: block;
+}
+
+#income-card input[type="number"] {
+    height: 25px;
+    font-size: 0.9em;
+}
+
+
+/* Expense Card */
+
+#expense-card label {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-weight: 500;
+}
+
+
+/*balance card */
+
+#balance-card li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    list-style: none;
+}
